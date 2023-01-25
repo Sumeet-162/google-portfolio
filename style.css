@@ -1,3 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
 body{
   background-color: #202124;
   margin: 0;
@@ -177,14 +182,21 @@ body{
   font-size: 0.43em;
   color: rgb(160, 160, 160);
   font-family: 'Sans', sans-serif;
+  width: 200em;
+  min-width: 20em;
   /* line-height: 1em; */
   font-weight: bold;
 }
 .mainblue{
   color: 	#4285F4;
 }
-.aloy{
+.aloysius{
   margin-bottom: 4em;
+  min-width: 45em;
+
+}
+.cam{
+  min-width: 40em;
 }
 .mid{
   display: flex;
@@ -200,6 +212,7 @@ body{
   border: 2px solid #323639;
   padding: 1em;
   border-radius: 0.5em;
+  min-width: 26em;
 }
 .r-name{
   margin-top: -0.3em;
@@ -224,7 +237,7 @@ a{
 }
 .m-sec{
   margin-right: 0;
-  width: 10em;
+  min-width: 12em;
   margin-left: 2em;
   margin-right: 0.4em;
   margin-top: -3.9em;
@@ -274,6 +287,7 @@ a{
 }
 .l-sec{
   margin-right: 0;
+  min-width: 13em;
   width: 13em;
   margin-right: 0.4em;
   margin-top: -3.9em;
@@ -313,15 +327,17 @@ a{
   font-size: 1.2em;
   margin-top: 6.5em;
   margin-left: 30em;
+  min-width: 50em;
 }
 .no{
+  min-width: 50em;
   display: flex;
   margin-top: -3em;
-  margin-left: 93em;
+  margin-left: 90em;
   font-size: 0.4em;
   font-family: sans-serif;
   color: rgb(155, 188, 216);
 }
 .next{
-  margin-left: 2em;
+  margin-left: 3.5em;
 }
